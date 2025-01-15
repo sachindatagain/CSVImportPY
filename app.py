@@ -6,10 +6,10 @@ import pandas as pd
 def get_connection():
     try:
         connection = mysql.connector.connect(
-            host="localhost",  # Database host
-            user="root",  # Username
-            password="Jagadish@24",  # Password
-            database="data_gain"  # Database name
+            host="sql.freedb.tech",  # Database host
+            user="freedb_sachindatagain1",  # Username
+            password="Fr@GGxBEhT7@jcM",  # Password
+            database="freedb_data_gain"  # Database name
         )
         return connection  # Return the connection if successful
     except mysql.connector.Error as err:
